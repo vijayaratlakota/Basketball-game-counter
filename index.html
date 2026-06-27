@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+        <style>
+                            @import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <h1 id="homedisplay" >0</h1>
+                <div id="home-buttons">
+                    <button id="homeplus1" onclick="plus1()" >+1</button>
+                    <button id="homeplus2" onclick="plus2()">+2</button>
+                    <button id="homeplus3" onclick="plus3()">+3</button>
+                </div>
+                <div>
+                    <button class="hresetbtn" onclick="hreset()">RESET</button>
+                </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <h1 id="guestdisplay" >0</h1>
+                <div id="guest-buttons">
+                    <button id="guestplus1" onclick="gplus1()" >+1</button>
+                    <button id="guestplus2" onclick="gplus2()">+2</button>
+                    <button id="guestplus3" onclick="gplus3()">+3</button>
+                </div>
+                <div>
+                    <button class="gresetbtn" onclick="greset()">RESET</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
